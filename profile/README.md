@@ -5,6 +5,7 @@
 
 <p align="center">
   <a href="https://spaceworks-hq.github.io/SpaceWorks-Docs/"><b>Docs</b></a> ·
+  <a href="https://spaceworks-hq.github.io/SpaceWorks-Design/"><b>Design system</b></a> ·
   <a href="https://github.com/SpaceWorks-HQ/SpaceWorks#readme"><b>Get started</b></a> ·
   <a href="https://github.com/SpaceWorks-HQ/SpaceWorks/releases/latest"><b>Latest release</b></a> ·
   <a href="https://github.com/SpaceWorks-HQ/SpaceWorks/issues"><b>Say hello</b></a>
@@ -54,7 +55,7 @@ We'd rather build the right tools alongside real makerspaces than ship a shiny b
 |---|---|
 | [**SpaceWorks**](https://github.com/SpaceWorks-HQ/SpaceWorks) | The main app: server, staff console, member area and installer |
 | [**SpaceWorks-Docs**](https://github.com/SpaceWorks-HQ/SpaceWorks-Docs) | Guides for setting up, running and extending Space Works ([read them](https://spaceworks-hq.github.io/SpaceWorks-Docs/)) |
-| [**SpaceWorks-Design**](https://github.com/SpaceWorks-HQ/SpaceWorks-Design) | The brand kit: logos, colours, fonts and design tokens |
+| [**SpaceWorks-Design**](https://github.com/SpaceWorks-HQ/SpaceWorks-Design) | The design system: logos, colours, fonts, design tokens and UI specs ([browse it](https://spaceworks-hq.github.io/SpaceWorks-Design/)) |
 | [**SpaceWorks-Website**](https://github.com/SpaceWorks-HQ/SpaceWorks-Website) | The public landing page |
 | **SpaceWorks-iOS** · **SpaceWorks-Android** | Native member apps, coming soon 📱 |
 
