@@ -62,7 +62,6 @@ We'd rather build the right tools alongside real makerspaces than ship a shiny b
 | [**SpaceWorks-Website**](https://github.com/SpaceWorks-HQ/SpaceWorks-Website) | The public landing page ([visit it](https://spaceworks-hq.github.io/SpaceWorks-Website/)) |
 | [**SpaceWorks-iOS**](https://github.com/SpaceWorks-HQ/SpaceWorks-iOS) | Native iOS 17+ app in SwiftUI, in development 📱 |
 | [**SpaceWorks-Android**](https://github.com/SpaceWorks-HQ/SpaceWorks-Android) | Native Android 8+ app in Kotlin and Compose, for phones and tablets, in development 📱 |
-| [**.github**](https://github.com/SpaceWorks-HQ/.github) | This profile page |
 
 ### 🌐 Hosted sites
 
