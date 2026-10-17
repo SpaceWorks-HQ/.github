@@ -4,6 +4,7 @@
 </picture>
 
 <p align="center">
+  <a href="https://spaceworks-hq.github.io/SpaceWorks-Website/"><b>Website</b></a> ·
   <a href="https://spaceworks-hq.github.io/SpaceWorks-Docs/"><b>Docs</b></a> ·
   <a href="https://spaceworks-hq.github.io/SpaceWorks-Design/"><b>Design system</b></a> ·
   <a href="https://github.com/SpaceWorks-HQ/SpaceWorks#readme"><b>Get started</b></a> ·
@@ -43,9 +44,11 @@ One install, and you switch on only the parts your space needs. Whatever you lea
 | 👥 **Members** | One personal account per person, a member area for their loans and fees, and optional membership plans and renewals. |
 | 💸 **Money** | Fees, deposits and receipts are always tracked. Stripe or Razorpay checkout is optional. |
 | 📊 **Reports and alerts** | A report for every module, plus notifications, email and chat alerts in Telegram, Slack, Discord or Mattermost. |
-| 🔐 **Running it** | Many spaces on one server, roles you define, an append-only audit log, encrypted backups and safe updates. |
+| 🔐 **Running it** | Many spaces on one server, roles you define, an append-only audit log, encrypted backups, bundled Silo object storage and safe updates from GitHub releases. |
 
-**Still on the workbench 🧪:** native iOS and Android apps for members, and more IoT integrations for tool status, access hardware and sensors. Every hardware integration will get its own docs so other spaces can copy it, change it and make it better.
+**Apps 📱:** native member apps for iOS (SwiftUI) and Android (Kotlin and Compose, phones and tablets) are in active development. Both are white-label: point them at your own server, and they draw their colours and logos from the shared design system.
+
+**Still on the workbench 🧪:** finishing and publishing those apps, and more IoT integrations for tool status, access hardware and sensors. Every hardware integration will get its own docs so other spaces can copy it, change it and make it better.
 
 We'd rather build the right tools alongside real makerspaces than ship a shiny black box.
 
@@ -53,11 +56,21 @@ We'd rather build the right tools alongside real makerspaces than ship a shiny b
 
 | Repository | What lives there |
 |---|---|
-| [**SpaceWorks**](https://github.com/SpaceWorks-HQ/SpaceWorks) | The main app: server, staff console, member area and installer |
+| [**SpaceWorks**](https://github.com/SpaceWorks-HQ/SpaceWorks) | The main app: server, staff console, member area and installer ([latest release](https://github.com/SpaceWorks-HQ/SpaceWorks/releases/latest)) |
 | [**SpaceWorks-Docs**](https://github.com/SpaceWorks-HQ/SpaceWorks-Docs) | Guides for setting up, running and extending Space Works ([read them](https://spaceworks-hq.github.io/SpaceWorks-Docs/)) |
 | [**SpaceWorks-Design**](https://github.com/SpaceWorks-HQ/SpaceWorks-Design) | The design system: logos, colours, fonts, design tokens and UI specs ([browse it](https://spaceworks-hq.github.io/SpaceWorks-Design/)) |
-| [**SpaceWorks-Website**](https://github.com/SpaceWorks-HQ/SpaceWorks-Website) | The public landing page |
-| **SpaceWorks-iOS** · **SpaceWorks-Android** | Native member apps, coming soon 📱 |
+| [**SpaceWorks-Website**](https://github.com/SpaceWorks-HQ/SpaceWorks-Website) | The public landing page ([visit it](https://spaceworks-hq.github.io/SpaceWorks-Website/)) |
+| [**SpaceWorks-iOS**](https://github.com/SpaceWorks-HQ/SpaceWorks-iOS) | Native iOS 17+ app in SwiftUI, in development 📱 |
+| [**SpaceWorks-Android**](https://github.com/SpaceWorks-HQ/SpaceWorks-Android) | Native Android 8+ app in Kotlin and Compose, for phones and tablets, in development 📱 |
+| [**.github**](https://github.com/SpaceWorks-HQ/.github) | This profile page |
+
+### 🌐 Hosted sites
+
+| Site | Address |
+|---|---|
+| 🏠 Website | [spaceworks-hq.github.io/SpaceWorks-Website](https://spaceworks-hq.github.io/SpaceWorks-Website/) |
+| 📖 Docs | [spaceworks-hq.github.io/SpaceWorks-Docs](https://spaceworks-hq.github.io/SpaceWorks-Docs/) |
+| 🎨 Design system | [spaceworks-hq.github.io/SpaceWorks-Design](https://spaceworks-hq.github.io/SpaceWorks-Design/) |
 
 ## 🚀 Try it on your own server
 
@@ -67,7 +80,7 @@ On a Linux server, as a user with `sudo`:
 curl -fsSL https://raw.githubusercontent.com/SpaceWorks-HQ/SpaceWorks/main/install.sh | bash
 ```
 
-The installer asks every question first and changes nothing until you confirm. Want to look before you leap? [Read `install.sh`](https://github.com/SpaceWorks-HQ/SpaceWorks/blob/main/install.sh).
+The installer asks every question first and changes nothing until you confirm. Running a fork? The same command works: its first question asks which repository to install and update from. Want to look before you leap? [Read `install.sh`](https://github.com/SpaceWorks-HQ/SpaceWorks/blob/main/install.sh).
 
 ## 🌱 Where this is going
 
