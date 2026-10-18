@@ -87,6 +87,17 @@ This isn't software for just one space. The goal is to give every makerspace a s
 
 We're growing this organisation with the people and makerspaces who want to join in. The opportunities that came our way should reach others too. Everything here is open source: inspect it, self-host it, bend it to fit your weird and wonderful workflow, and send your improvements back upstream.
 
+## 👋 The people behind it
+
+| | Who | What they did | Reach them for |
+|---|---|---|---|
+| 🛠️ | **Shaan Shoukath** ([@Shaan-Shoukath](https://github.com/Shaan-Shoukath)) | Created and built Space Works end to end: the server, staff console, member area, installer and the iOS and Android mobile apps. Maintains it today. | Bugs, features, installs, code reviews and anything else |
+| 🎨 | **Suraj Sunil** ([@thisisonebit](https://github.com/thisisonebit)) | Designed the look and feel: the brand, logos, colours and the [design system](https://spaceworks-hq.github.io/SpaceWorks-Design/) the web console and mobile apps are built from. | Design, branding and UI feedback |
+
+Not sure who to ask? [Open an issue](https://github.com/SpaceWorks-HQ/SpaceWorks/issues/new/choose) and mention whichever of us fits. It always reaches the right person, and the answer helps the next person with the same question.
+
+And a big thank you 🙏 to everyone who has reported a bug, tested a release, suggested a feature or sent a pull request. Space Works is better because of you, and every merged contribution is credited in [CONTRIBUTORS.md](https://github.com/SpaceWorks-HQ/SpaceWorks/blob/main/.github/CONTRIBUTORS.md).
+
 ## 🤝 Pull up a chair
 
 The best contributions come from people who actually use Space Works. Here's the path from "huh, that's odd" to your name in the credits:
@@ -113,5 +124,6 @@ No CLA, no gatekeeping. Contributions are shared under the project's AGPL-3.0 li
 
 <p align="center">
   <img src="assets/symbol.svg" alt="" width="40"><br>
-  <sub>Made with ❤️, care and probably a little filament dust, by the makers of the <b>TinkerSpace community</b>.</sub>
+  <sub>Built from scratch by <a href="https://github.com/Shaan-Shoukath"><b>Shaan Shoukath</b></a> · Designed by <a href="https://github.com/thisisonebit"><b>Suraj Sunil</b></a> · With thanks to every contributor</sub><br>
+  <sub>Made with ❤️, care and probably a little filament dust, for <b>community makerspaces</b> everywhere, and for anyone who has ever had to ask <i>"who has the drill?"</i></sub>
 </p>
