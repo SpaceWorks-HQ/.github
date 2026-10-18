@@ -124,6 +124,5 @@ No CLA, no gatekeeping. Contributions are shared under the project's AGPL-3.0 li
 
 <p align="center">
   <img src="assets/symbol.svg" alt="" width="40"><br>
-  <sub>Built from scratch by <a href="https://github.com/Shaan-Shoukath"><b>Shaan Shoukath</b></a> · Designed by <a href="https://github.com/thisisonebit"><b>Suraj Sunil</b></a> · With thanks to every contributor</sub><br>
   <sub>Made with ❤️, care and probably a little filament dust, for <b>community makerspaces</b> everywhere, and for anyone who has ever had to ask <i>"who has the drill?"</i></sub>
 </p>
