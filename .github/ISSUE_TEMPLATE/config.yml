@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the docs
+    url: https://spaceworks-hq.github.io/SpaceWorks-Docs/
+    about: Install, self-hosting, configuration and staff guides.
+  - name: Get help
+    url: https://github.com/SpaceWorks-HQ/.github/blob/main/SUPPORT.md
+    about: Where to ask questions and what to include.
+  - name: Report a security vulnerability
+    url: https://github.com/SpaceWorks-HQ/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, never in a public issue.

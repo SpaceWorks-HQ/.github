@@ -1,0 +1,47 @@
+name: Feature request
+description: Suggest an improvement or a new capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. The best requests start with the problem your space has today, not the solution.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Who runs into it, and how often?
+      placeholder: Our front desk can't tell which 3D printers are free during open hours...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to happen?
+      description: Describe the outcome you want. Sketches and screenshots are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle it today?
+      description: Spreadsheets, another tool, a sticky note on the machine... Workarounds tell us a lot.
+  - type: dropdown
+    id: space
+    attributes:
+      label: What kind of space or team are you?
+      options:
+        - Makerspace or hackerspace
+        - Fab lab
+        - Tool library
+        - Student club or college community
+        - Club, association or alumni body
+        - Startup or incubator
+        - Other
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Want to help build it?
+      options:
+        - label: I'd like to work on this myself, with some guidance.
