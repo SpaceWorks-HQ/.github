@@ -1,0 +1,67 @@
+name: Bug report
+description: Something in Space Works isn't working as it should
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Space Works better for every makerspace.
+        Please remove passwords, tokens and members' personal data before posting. Report security vulnerabilities privately using the [security policy](https://github.com/SpaceWorks-HQ/.github/blob/main/SECURITY.md).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and where you saw it.
+      placeholder: When I check in a returned drill, the loan stays open...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The smallest set of steps that reliably shows the problem.
+      placeholder: |
+        1. Go to ...
+        2. Select ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: dropdown
+    id: hosting
+    attributes:
+      label: How are you running it?
+      options:
+        - One-line installer on a server
+        - Docker on a VPS
+        - Cloud host (Render, Netlify, Vercel or similar)
+        - Local development
+        - Mobile app
+        - Hosted site (website, docs or design system)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: The release tag, app version or commit SHA.
+      placeholder: v0.9.2 or abc1234
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device, OS and browser
+      placeholder: Ubuntu 24.04 server, Chrome 140 on Windows 11, Pixel 8 with Android 16...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Optional. Paste redacted logs, or drag in screenshots.
+      render: shell

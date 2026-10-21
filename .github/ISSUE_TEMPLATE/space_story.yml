@@ -1,0 +1,67 @@
+name: Tell us about your space
+description: Run a makerspace, fab lab or maker community? Tell us how it works.
+title: "[Space]: "
+labels: ["community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We build Space Works alongside real spaces. Tell us how yours runs, what's painful and what you'd love to hand off to software. Only share what you're happy to make public.
+  - type: input
+    id: name
+    attributes:
+      label: Your space
+      description: Name and city, or leave it vague if you prefer.
+      placeholder: TinkerSpace, Kochi
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of space or team is it?
+      options:
+        - Makerspace or hackerspace
+        - Fab lab
+        - Tool library
+        - Student club or college community
+        - Club, association or alumni body
+        - Startup or incubator
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Roughly how many active members?
+      options:
+        - Under 50
+        - 50 to 200
+        - 200 to 1,000
+        - Over 1,000
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you run things today?
+      description: Tools, machines, bookings, events, memberships, money. What do you use and who does the work?
+    validations:
+      required: true
+  - type: textarea
+    id: pain
+    attributes:
+      label: What's the most painful part?
+    validations:
+      required: true
+  - type: checkboxes
+    id: interest
+    attributes:
+      label: Which parts of Space Works interest you?
+      options:
+        - label: Inventory, lending and machines (SpaceWorks)
+        - label: Events and check-in (SpaceWorks-Events)
+        - label: Memberships and payments (SpaceWorks-Organization)
+        - label: Team workspace (SpaceWorks-Workspace)
+        - label: Member mobile apps (iOS and Android)
+  - type: checkboxes
+    id: pilot
+    attributes:
+      label: Want to try it?
+      options:
+        - label: We'd be happy to pilot Space Works and share feedback.
