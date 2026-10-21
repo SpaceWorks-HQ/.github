@@ -59,6 +59,7 @@ body:
         - label: Memberships and payments (SpaceWorks-Organization)
         - label: Team workspace (SpaceWorks-Workspace)
         - label: Member mobile apps (iOS and Android)
+        - label: The complete ecosystem, all of the above
   - type: checkboxes
     id: pilot
     attributes:

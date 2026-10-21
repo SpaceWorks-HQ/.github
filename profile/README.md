@@ -16,9 +16,9 @@
 
 ### Hey there, maker 👋
 
-**Space Works** is a family of free, open-source, self-hosted apps for the places where things get made: **makerspaces, fab labs, hackerspaces, tool libraries, student clubs, maker communities and the young startups that grow out of them.**
+**Space Works** is a family of free, open-source, self-hosted apps for the places where things get made: **makerspaces, fab labs, hackerspaces, tool libraries, student clubs, maker communities, the young startups that grow out of them, and anyone who needs a complete ecosystem to run it all.**
 
-One app looks after the workshop: tools, machines, bookings, members and money. The others look after everything around it: events and check-in, memberships and renewals, and the private workspace where your core team plans, talks and ships. They share one design system and one licence, and they all run on your own server. Use one or use them all, and switch on only what your space needs.
+One app looks after the workshop: tools, machines, bookings, members and money. The others look after everything around it: events and check-in, memberships and renewals, and the private workspace where your core team plans, talks and ships. They share one design system and one licence, and they all run on your own server. Use one app, or run the whole ecosystem if you want everything in one place, and switch on only what your space needs.
 
 Built in a makerspace, for makerspaces. 🔩
 
@@ -31,41 +31,22 @@ Built in a makerspace, for makerspaces. 🔩
 | 🪪 run a **club, association, chapter network or alumni body** | [**SpaceWorks-Organization**](https://github.com/SpaceWorks-HQ/SpaceWorks-Organization): plans, join forms, renewals, online and UPI payments, GST receipts and member cards |
 | 🚀 lead a **community core team or an early-stage startup** | [**SpaceWorks-Workspace**](https://github.com/SpaceWorks-HQ/SpaceWorks-Workspace): an invite-only home for projects, chat, docs, files, finance and an AI assistant |
 | 📱 want members to carry **the space in their pocket** | [**iOS**](https://github.com/SpaceWorks-HQ/SpaceWorks-iOS) and [**Android**](https://github.com/SpaceWorks-HQ/SpaceWorks-Android): browse and borrow tools, scan QR codes, track loans |
+| 🌐 want **the complete ecosystem** for your space, community or startup | **All of them.** Run SpaceWorks for the workshop, Events for your calendar, Organization for memberships, Workspace for your team and the apps for your members, all self-hosted, all in one look |
 | 🎨 are **building on top of Space Works** | [**Design**](https://github.com/SpaceWorks-HQ/SpaceWorks-Design) and [**Docs**](https://github.com/SpaceWorks-HQ/SpaceWorks-Docs): brand, tokens, UX specs, self-hosting and API guides |
 
 ## 🗺️ The ecosystem
 
-```mermaid
-flowchart LR
-  subgraph Space["🧰 Run the space"]
-    Core["SpaceWorks<br/>inventory · lending · machines<br/>bookings · members · fees"]
-  end
-  subgraph Community["🤝 Run the community"]
-    Events["Events<br/>registration · QR tickets<br/>check-in · badges"]
-    Org["Organization<br/>memberships · renewals<br/>payments · GST receipts"]
-  end
-  subgraph Team["🚀 Run the team"]
-    Workspace["Workspace<br/>projects · chat · docs<br/>finance · AI assistant"]
-  end
-  subgraph Pocket["📱 In every pocket"]
-    Apps["iOS · Android"]
-  end
-  Apps -->|API| Core
-  Design["🎨 Design system"] -.-> Core & Events & Org & Workspace & Apps
-  Docs["📖 Docs"] -.-> Core
-```
-
-| | Repository | What lives there | Stack | Status |
+| Layer | Repository | What lives there | Stack | Status |
 |---|---|---|---|---|
-| 🧰 | [**SpaceWorks**](https://github.com/SpaceWorks-HQ/SpaceWorks) | The core makerspace app: server, staff console, member area and one-line installer | Django, React, PostgreSQL | [![release](https://img.shields.io/github/v/release/SpaceWorks-HQ/SpaceWorks?include_prereleases&style=flat-square&label=&color=006E63)](https://github.com/SpaceWorks-HQ/SpaceWorks/releases) |
-| 🎟️ | [**SpaceWorks-Events**](https://github.com/SpaceWorks-HQ/SpaceWorks-Events) | Free community events: registration, live QR tickets, offline check-in, ID cards and badges | Next.js, Prisma, PostgreSQL | [![release](https://img.shields.io/github/v/release/SpaceWorks-HQ/SpaceWorks-Events?include_prereleases&style=flat-square&label=&color=006E63)](https://github.com/SpaceWorks-HQ/SpaceWorks-Events/releases) |
-| 🪪 | [**SpaceWorks-Organization**](https://github.com/SpaceWorks-HQ/SpaceWorks-Organization) | Multi-tenant memberships: plans, renewals, Razorpay, Stripe and UPI, GST receipts, member ID cards | Next.js, Prisma, PostgreSQL | Active development |
-| 🚀 | [**SpaceWorks-Workspace**](https://github.com/SpaceWorks-HQ/SpaceWorks-Workspace) | Private team workspace: projects and kanban, chat, docs, files, finance, blog and an assistant with MCP | Next.js, Prisma, PostgreSQL | Early build |
-| 🍏 | [**SpaceWorks-iOS**](https://github.com/SpaceWorks-HQ/SpaceWorks-iOS) | Native iPhone and iPad member app, white-label | Swift, SwiftUI | In development |
-| 🤖 | [**SpaceWorks-Android**](https://github.com/SpaceWorks-HQ/SpaceWorks-Android) | Native Android member app for phones and tablets, white-label | Kotlin, Compose | In development |
-| 🎨 | [**SpaceWorks-Design**](https://github.com/SpaceWorks-HQ/SpaceWorks-Design) | Brand, logos, icons, fonts, light and dark design tokens and UX specs | Astro, Starlight | [Live](https://spaceworks-hq.github.io/SpaceWorks-Design/) |
-| 📖 | [**SpaceWorks-Docs**](https://github.com/SpaceWorks-HQ/SpaceWorks-Docs) | Install, self-hosting, staff guides, developer guide and API reference | Astro, Starlight | [Live](https://spaceworks-hq.github.io/SpaceWorks-Docs/) |
-| 🏠 | [**SpaceWorks-Website**](https://github.com/SpaceWorks-HQ/SpaceWorks-Website) | The public landing page | HTML, CSS, JS | [Live](https://spaceworks-hq.github.io/SpaceWorks-Website/) |
+| 🧰 **Run the space** | [**SpaceWorks**](https://github.com/SpaceWorks-HQ/SpaceWorks) | The core makerspace app: server, staff console, member area and one-line installer | Django, React, PostgreSQL | [Released](https://github.com/SpaceWorks-HQ/SpaceWorks/releases/latest) |
+| 🤝 **Run the community** | [**SpaceWorks-Events**](https://github.com/SpaceWorks-HQ/SpaceWorks-Events) | Free community events: registration, live QR tickets, offline check-in, ID cards and badges | Next.js, Prisma, PostgreSQL | [Released](https://github.com/SpaceWorks-HQ/SpaceWorks-Events/releases/latest) |
+| 🤝 **Run the community** | [**SpaceWorks-Organization**](https://github.com/SpaceWorks-HQ/SpaceWorks-Organization) | Multi-tenant memberships: plans, renewals, Razorpay, Stripe and UPI, GST receipts, member ID cards | Next.js, Prisma, PostgreSQL | Active development |
+| 🚀 **Run the team** | [**SpaceWorks-Workspace**](https://github.com/SpaceWorks-HQ/SpaceWorks-Workspace) | Private team workspace: projects and kanban, chat, docs, files, finance, blog and an assistant with MCP | Next.js, Prisma, PostgreSQL | Early build |
+| 📱 **In every pocket** | [**SpaceWorks-iOS**](https://github.com/SpaceWorks-HQ/SpaceWorks-iOS) | Native iPhone and iPad member app, white-label | Swift, SwiftUI | In development |
+| 📱 **In every pocket** | [**SpaceWorks-Android**](https://github.com/SpaceWorks-HQ/SpaceWorks-Android) | Native Android member app for phones and tablets, white-label | Kotlin, Compose | In development |
+| 🎨 **Shared foundations** | [**SpaceWorks-Design**](https://github.com/SpaceWorks-HQ/SpaceWorks-Design) | Brand, logos, icons, fonts, light and dark design tokens and UX specs | Astro, Starlight | [Live](https://spaceworks-hq.github.io/SpaceWorks-Design/) |
+| 🎨 **Shared foundations** | [**SpaceWorks-Docs**](https://github.com/SpaceWorks-HQ/SpaceWorks-Docs) | Install, self-hosting, staff guides, developer guide and API reference | Astro, Starlight | [Live](https://spaceworks-hq.github.io/SpaceWorks-Docs/) |
+| 🎨 **Shared foundations** | [**SpaceWorks-Website**](https://github.com/SpaceWorks-HQ/SpaceWorks-Website) | The public landing page | HTML, CSS, JS | [Live](https://spaceworks-hq.github.io/SpaceWorks-Website/) |
 
 Everything is licensed under **AGPL-3.0**. No paid tier, no trackers, no lock-in: your members' data stays in your own database.
 
