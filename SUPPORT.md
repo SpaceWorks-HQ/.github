@@ -2,14 +2,12 @@
 
 Stuck? Here's where to go.
 
-| You want to… | Go here |
-|---|---|
-| Install, configure, update or back up Space Works | [The docs](https://spaceworks-hq.github.io/SpaceWorks-Docs/) |
-| Check colours, logos, fonts or UI patterns | [The design system](https://spaceworks-hq.github.io/SpaceWorks-Design/) |
-| Report a bug | Open an issue in the affected repository using the **Bug report** template |
-| Ask for a feature | Open an issue in the affected repository using the **Feature request** template |
-| Tell us how your makerspace, fab lab or community works | [Share your space's story](https://github.com/SpaceWorks-HQ/.github/issues/new?template=space_story.yml) |
-| Report a security problem | Follow the [security policy](SECURITY.md). Please don't post it publicly. |
+- **Installing, configuring, updating or backing up:** read [the docs](https://spaceworks-hq.github.io/SpaceWorks-Docs/).
+- **Colours, logos, fonts or UI patterns:** see [the design system](https://spaceworks-hq.github.io/SpaceWorks-Design/).
+- **Found a bug:** open an issue in the affected repository with the **Bug report** form.
+- **Want a feature:** open an issue in the affected repository with the **Feature request** form.
+- **Want to tell us how your space works:** [share your space's story](https://github.com/SpaceWorks-HQ/.github/issues/new?template=space_story.yml).
+- **Security problem:** follow the [security policy](SECURITY.md). Please don't post it publicly.
 
 ## Before you open an issue
 
