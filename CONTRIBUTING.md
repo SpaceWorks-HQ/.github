@@ -1,7 +1,7 @@
 # Contributing to Space Works
 
-Thanks for helping build Space Works, the open-source ecosystem for makerspaces, fab labs, hackerspaces,
-tool libraries and maker communities. This guide applies to every repository in
+Thanks for helping build Space Works, open-source software for running makerspaces, fab labs and
+hackerspaces, and the communities, events and teams around them. This guide applies to every repository in
 [SpaceWorks-HQ](https://github.com/SpaceWorks-HQ). When a repository has its own `CONTRIBUTING.md`, read
 that too: it covers setup, tests and the architecture rules for that codebase.
 
@@ -21,18 +21,17 @@ You don't need to write code to make a difference.
 
 ## Which repository?
 
-| Your change is about… | Repository |
-|---|---|
-| Inventory, lending, machines, bookings, members, fees, the installer | [SpaceWorks](https://github.com/SpaceWorks-HQ/SpaceWorks) |
-| Event pages, registration, tickets, check-in, badges, certificates | [SpaceWorks-Events](https://github.com/SpaceWorks-HQ/SpaceWorks-Events) |
-| Membership plans, renewals, payments, GST receipts, member cards | [SpaceWorks-Organization](https://github.com/SpaceWorks-HQ/SpaceWorks-Organization) |
-| The team workspace: projects, chat, docs, files, finance, assistant | [SpaceWorks-Workspace](https://github.com/SpaceWorks-HQ/SpaceWorks-Workspace) |
-| The iPhone and iPad app | [SpaceWorks-iOS](https://github.com/SpaceWorks-HQ/SpaceWorks-iOS) |
-| The Android app | [SpaceWorks-Android](https://github.com/SpaceWorks-HQ/SpaceWorks-Android) |
-| Brand, tokens, icons, UX specs | [SpaceWorks-Design](https://github.com/SpaceWorks-HQ/SpaceWorks-Design) |
-| Guides and API reference | [SpaceWorks-Docs](https://github.com/SpaceWorks-HQ/SpaceWorks-Docs) |
-| The landing page | [SpaceWorks-Website](https://github.com/SpaceWorks-HQ/SpaceWorks-Website) |
-| This organisation profile and these shared guides | [.github](https://github.com/SpaceWorks-HQ/.github) |
+- [**SpaceWorks**](https://github.com/SpaceWorks-HQ/SpaceWorks): the makerspace platform, covering inventory,
+  lending, machines, events, bookings, membership, payments, reports and the installer.
+- [**SpaceWorks-Events**](https://github.com/SpaceWorks-HQ/SpaceWorks-Events): the standalone event manager.
+- [**SpaceWorks-Organization**](https://github.com/SpaceWorks-HQ/SpaceWorks-Organization): membership management.
+- [**SpaceWorks-Workspace**](https://github.com/SpaceWorks-HQ/SpaceWorks-Workspace): internal team ops.
+- [**SpaceWorks-iOS**](https://github.com/SpaceWorks-HQ/SpaceWorks-iOS) and
+  [**SpaceWorks-Android**](https://github.com/SpaceWorks-HQ/SpaceWorks-Android): the member apps.
+- [**SpaceWorks-Design**](https://github.com/SpaceWorks-HQ/SpaceWorks-Design): brand, tokens, icons and UX specs.
+- [**SpaceWorks-Docs**](https://github.com/SpaceWorks-HQ/SpaceWorks-Docs): guides and the API reference.
+- [**SpaceWorks-Website**](https://github.com/SpaceWorks-HQ/SpaceWorks-Website): the landing page.
+- [**.github**](https://github.com/SpaceWorks-HQ/.github): this organisation profile and these shared guides.
 
 Not sure? Open the issue where you think it fits. We'll move it if needed.
 
